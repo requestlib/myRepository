@@ -359,12 +359,12 @@ _start0800:
     li a0, 0
     li a1, 0
 
-#ifdef RTOS_RTTHREAD
+    // #ifdef RTOS_RTTHREAD
     // Call entry function when using RT-Thread
     call entry
-#else
-    call main
-#endif
+	//#else
+    //call main
+	//#endif
     /* do post-main steps after main */
     call _postmain_fini
 

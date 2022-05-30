@@ -209,6 +209,7 @@ rt_mp_t rt_mp_create(const char *name,
     /* allocate object */
     mp = (struct rt_mempool *)rt_object_allocate(RT_Object_Class_MemPool, name);
     /* allocate object failed */
+
     if (mp == RT_NULL)
         return RT_NULL;
 
@@ -232,11 +233,12 @@ rt_mp_t rt_mp_create(const char *name,
     mp->block_free_count  = mp->block_total_count;
 
     /* initialize suspended thread list */
+
     rt_list_init(&(mp->suspend_thread));
     mp->suspend_thread_count = 0;
-
     /* initialize free block list */
     block_ptr = (rt_uint8_t *)mp->start_address;
+    
     for (offset = 0; offset < mp->block_total_count; offset ++)
     {
         *(rt_uint8_t **)(block_ptr + offset * (block_size + sizeof(rt_uint8_t *)))
@@ -247,7 +249,6 @@ rt_mp_t rt_mp_create(const char *name,
         = RT_NULL;
 
     mp->block_list = block_ptr;
-
     return mp;
 }
 RTM_EXPORT(rt_mp_create);

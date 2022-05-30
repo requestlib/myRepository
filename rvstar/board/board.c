@@ -17,14 +17,18 @@
 #ifdef RT_USING_SERIAL
     #include <drv_usart.h>
 #endif
-
-/** _end symbol defined in linker script of Nuclei SDK */
-extern void *_end;
-
-/** _heap_end symbol defined in linker script of Nuclei SDK */
-extern void *_heap_end;
-#define HEAP_BEGIN  &_end
-#define HEAP_END    &_heap_end
+#ifdef RT_USING_HEAP
+#define RT_HEAP_SIZE 2048
+static uint32_t rt_heap[RT_HEAP_SIZE];
+RT_WEAK void *rt_heap_begin_get(void)
+{
+    return rt_heap;
+}
+RT_WEAK void *rt_heap_end_get(void)
+{
+    return rt_heap + RT_HEAP_SIZE;
+}
+#endif
 
 /*
  * - Implemented and defined in Nuclei SDK system_<Device>.c file
@@ -42,7 +46,7 @@ void rt_hw_board_init(void)
     rt_hw_ticksetup();
 
 #ifdef RT_USING_HEAP
-    rt_system_heap_init((void *) HEAP_BEGIN, (void *) HEAP_END);
+    rt_system_heap_init(rt_heap_begin_get(), rt_heap_end_get());
 #endif
 
     _init(); // __libc_init_array is not used in RT-Thread

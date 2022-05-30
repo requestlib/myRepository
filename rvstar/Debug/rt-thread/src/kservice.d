@@ -14,7 +14,6 @@ rt-thread/src/kservice.o: ../rt-thread/src/kservice.c \
  D\:\design\workplace\rvstar\rt-thread\include/libc/libc_fdset.h \
  D\:\design\workplace\rvstar\rt-thread\include/rtservice.h \
  D\:\design\workplace\rvstar\rt-thread\include/rtm.h \
- D\:\design\workplace\rvstar\rt-thread\components\finsh/finsh_api.h \
  D\:\design\workplace\rvstar\rt-thread\include/rthw.h
 D\:\design\workplace\rvstar\rt-thread\include/rtthread.h:
 D\:\design\workplace\rvstar\rt-thread\include/rtconfig.h:
@@ -31,5 +30,4 @@ D\:\design\workplace\rvstar\rt-thread\include/libc/libc_signal.h:
 D\:\design\workplace\rvstar\rt-thread\include/libc/libc_fdset.h:
 D\:\design\workplace\rvstar\rt-thread\include/rtservice.h:
 D\:\design\workplace\rvstar\rt-thread\include/rtm.h:
-D\:\design\workplace\rvstar\rt-thread\components\finsh/finsh_api.h:
 D\:\design\workplace\rvstar\rt-thread\include/rthw.h:

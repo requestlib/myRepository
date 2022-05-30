@@ -16,7 +16,6 @@ rt-thread/components/drivers/serial/serial.o: \
  D\:\design\workplace\rvstar\rt-thread\include/libc/libc_fdset.h \
  D\:\design\workplace\rvstar\rt-thread\include/rtservice.h \
  D\:\design\workplace\rvstar\rt-thread\include/rtm.h \
- D\:\design\workplace\rvstar\rt-thread\components\finsh/finsh_api.h \
  D\:\design\workplace\rvstar\rt-thread\components\drivers\include/rtdevice.h \
  D\:\design\workplace\rvstar\rt-thread\components\drivers\include/ipc/ringbuffer.h \
  D\:\design\workplace\rvstar\rt-thread\components\drivers\include/ipc/completion.h \
@@ -44,7 +43,6 @@ D\:\design\workplace\rvstar\rt-thread\include/libc/libc_signal.h:
 D\:\design\workplace\rvstar\rt-thread\include/libc/libc_fdset.h:
 D\:\design\workplace\rvstar\rt-thread\include/rtservice.h:
 D\:\design\workplace\rvstar\rt-thread\include/rtm.h:
-D\:\design\workplace\rvstar\rt-thread\components\finsh/finsh_api.h:
 D\:\design\workplace\rvstar\rt-thread\components\drivers\include/rtdevice.h:
 D\:\design\workplace\rvstar\rt-thread\components\drivers\include/ipc/ringbuffer.h:
 D\:\design\workplace\rvstar\rt-thread\components\drivers\include/ipc/completion.h:

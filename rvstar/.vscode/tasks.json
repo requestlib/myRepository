@@ -8,7 +8,8 @@
             "type": "shell",
             "command": "gcc",
 
-            "args": ["-g","${file}","-o","${fileDirname}\\${fileBasenameNoExtension}.exe"],
+            "args": ["-g",
+                "${fileDirname}/test_1.c","${fileDirname}/test.c","-o","${workspaceFolder}/test",],
             "problemMatcher":{
                 "owner": "gcc",
                 "fileLocation": ["relative", "${workspaceRoot}"]

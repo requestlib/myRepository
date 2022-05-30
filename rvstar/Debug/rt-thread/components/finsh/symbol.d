@@ -16,7 +16,6 @@ rt-thread/components/finsh/symbol.o: \
  D\:\design\workplace\rvstar\rt-thread\include/libc/libc_fdset.h \
  D\:\design\workplace\rvstar\rt-thread\include/rtservice.h \
  D\:\design\workplace\rvstar\rt-thread\include/rtm.h \
- D\:\design\workplace\rvstar\rt-thread\components\finsh/finsh_api.h \
  ../rt-thread/components/finsh/finsh_api.h
 ../rt-thread/components/finsh/finsh.h:
 D\:\design\workplace\rvstar\rt-thread\include/rtthread.h:
@@ -34,5 +33,4 @@ D\:\design\workplace\rvstar\rt-thread\include/libc/libc_signal.h:
 D\:\design\workplace\rvstar\rt-thread\include/libc/libc_fdset.h:
 D\:\design\workplace\rvstar\rt-thread\include/rtservice.h:
 D\:\design\workplace\rvstar\rt-thread\include/rtm.h:
-D\:\design\workplace\rvstar\rt-thread\components\finsh/finsh_api.h:
 ../rt-thread/components/finsh/finsh_api.h:

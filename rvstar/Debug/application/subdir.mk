@@ -4,13 +4,25 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../application/main.c 
+../application/mailbox_example.c \
+../application/main.c \
+../application/semaphore_example.c \
+../application/thread_example.c \
+../application/timer_example.c 
 
 OBJS += \
-./application/main.o 
+./application/mailbox_example.o \
+./application/main.o \
+./application/semaphore_example.o \
+./application/thread_example.o \
+./application/timer_example.o 
 
 C_DEPS += \
-./application/main.d 
+./application/mailbox_example.d \
+./application/main.d \
+./application/semaphore_example.d \
+./application/thread_example.d \
+./application/timer_example.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

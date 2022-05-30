@@ -16,7 +16,6 @@ rt-thread/libcpu/risc-v/nuclei/cpuport.o: \
  D\:\design\workplace\rvstar\rt-thread\include/libc/libc_fdset.h \
  D\:\design\workplace\rvstar\rt-thread\include/rtservice.h \
  D\:\design\workplace\rvstar\rt-thread\include/rtm.h \
- D\:\design\workplace\rvstar\rt-thread\components\finsh/finsh_api.h \
  ../rt-thread/libcpu/risc-v/nuclei/cpuport.h \
  D\:\design\workplace\rvstar\nuclei_sdk\SoC\gd32vf103\Common\Include/nuclei_sdk_soc.h \
  D\:\design\workplace\rvstar\nuclei_sdk\SoC\gd32vf103\Common\Include/gd32vf103.h \
@@ -74,7 +73,6 @@ D\:\design\workplace\rvstar\rt-thread\include/libc/libc_signal.h:
 D\:\design\workplace\rvstar\rt-thread\include/libc/libc_fdset.h:
 D\:\design\workplace\rvstar\rt-thread\include/rtservice.h:
 D\:\design\workplace\rvstar\rt-thread\include/rtm.h:
-D\:\design\workplace\rvstar\rt-thread\components\finsh/finsh_api.h:
 ../rt-thread/libcpu/risc-v/nuclei/cpuport.h:
 D\:\design\workplace\rvstar\nuclei_sdk\SoC\gd32vf103\Common\Include/nuclei_sdk_soc.h:
 D\:\design\workplace\rvstar\nuclei_sdk\SoC\gd32vf103\Common\Include/gd32vf103.h:

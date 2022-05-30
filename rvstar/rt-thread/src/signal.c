@@ -487,7 +487,9 @@ int rt_thread_kill(rt_thread_t tid, int sig)
 
 int rt_system_signal_init(void)
 {
+
     _rt_siginfo_pool = rt_mp_create("signal", RT_SIG_INFO_MAX, sizeof(struct siginfo_node));
+
     if (_rt_siginfo_pool == RT_NULL)
     {
         dbg_log(DBG_ERROR, "create memory pool for signal info failed.\n");
